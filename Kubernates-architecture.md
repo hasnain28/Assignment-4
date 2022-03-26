@@ -1,10 +1,10 @@
-Docker architecture is a master slave node architecture.
+Kubernates architecture is a master slave node architecture.
 
 There could be one or more master nodes also called as control plane nodes.
 
 Also there could be one or more worker nodes as well also called as data plane nodes.
 
-Components of docker architecture could be divided into two categories.
+Components of Kubernates architecture could be divided into two categories.
 
 1.Master node components.
 2.All node components.
@@ -75,10 +75,7 @@ Route traffics to actual pod.
 **Pod:**
 
 Smallest deployable unit in K8s.
-
-
 Its just a logical wrapper over a container for easily passing arguments to container.
-
 Can have one or more more containers but its preferred to have one container per pod.
 Containers within a pode share an IP address and port space and can find each other via localhost.
 
