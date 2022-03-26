@@ -1,2 +1,2 @@
 # Assignment-4
-[Docker-Architecture](docker-architecture.md)
+[Kubernates-Architecture](Kubernates-architecture.md)
